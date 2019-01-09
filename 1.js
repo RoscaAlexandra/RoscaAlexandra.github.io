@@ -167,7 +167,7 @@ document.getElementById("search").addEventListener("click",function(){
 });
 //links
 document.getElementById("home_button").addEventListener("click",function(){
-  location.href="index.html";
+  location.href="https://RoscaAlexandra.github.io/index.html";
 });
 document.getElementById("view").addEventListener("click",function(){
   location.href="3.html";
