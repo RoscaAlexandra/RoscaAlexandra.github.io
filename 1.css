@@ -217,7 +217,7 @@ img.littleplane{
   border-radius: 5px;
   border: 2px solid white;
   background-color: transparent;
-  height:1%;
+  /*height:1%;*/
 }
 @media screen and (max-width: 600px) {
   .button2 {
@@ -1128,110 +1128,7 @@ footer{
   height: 800px;
   background-color: #00ad7c;
 }*/
-.cutiemesaj1{
-    width: 25%;
-    height: 50%;
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    background-color: #f5f5f5;
-    text-align: center;
-}
 
-.interiorcutie1{
-    width: 69%;
-    height: 80%;
-    position: relative;
-    top: 16%;
-    left: 15%;
-    font-family: Arial,Helvetica,sans-serif;
-    color: #a7a8a7;
-    font-size: medium;
-    margin-right:0;
-    /*min-width: 70%;*/
-    /*min-height: 70%;*/
-}
-
-.cutiemesaj2{
-    width: 25%;
-    height: 40%;
-    position: absolute;
-    top: 10%;
-    left: 37.5%;
-    background-color: #f5f5f5;
-    color: #a7a8a7;
-    text-align: center;
-    font-size: 15px;
-}
-
-.cutiemesaj3{
-    width: 25%;
-    height: 50%;
-    position: absolute;
-    top: 10%;
-    right: 10%;
-    background-color: #f5f5f5;
-    color: #a7a8a7;
-    text-align: center;
-    font-size: 15px;
-}
-@media screen and (max-width:600px){
-  .cutiemesaj1,.cutiemesaj2,.cutiemesaj3{
-    height:33%;
-    width:60%;
-    float:left;
-    position:static;
-  }
-}
-.cutieprs1{
-  width: 37%;
-  height: 10%;
-  position: absolute;
-  left: 10%;
-  top: 112%;
-  text-align: left;
-  color: #e7f7f2;
-  font-size: 20px;
-  min-width: 37%;
-  min-height: 10%;
-}
-
-.cutieprsA{
-  width: 29%;
-  height: 10%;
-  position: absolute;
-  left: 43%;
-  top: 112%;
-  text-align: left;
-  color: #5dcbac;
-  font-size: 20px;
-  min-width: 29%;
-  min-height: 10%;
-  opacity: 0.5;
-}
-
-.cutieprsKappa{
-  width: 42%;
-  height: 10%;
-  position: absolute;
-  left: 9.7%;
-  top: 127.5%;
-  text-align: left;
-  color: #5dcbac;
-  font-size: 20px;
-  opacity: 0.5;
-}
-
-.dot {
-    height: 50px;
-    width: 50px;
-    background-color: #00ad7c;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    top: -26px;
-    left: 5%;
-}
 .dot2 {
     height: 12px;
     width: 12.3px;
@@ -1253,36 +1150,6 @@ footer{
     left: 48%;
     top: 30.5%;
 }
-
-
-.triunghi {
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 30px solid #f5f5f5;
-  position: absolute;
-  bottom: -10%;
-  left: 10%;
-}
-
-.cutieclitenti{
-  width: 100%;
-  height: 10%;
-  position: absolute;
-  top: 15%;
-  text-align: center;
-  font-size: 25px;
-  color: #f5f5f5;
-  z-index: 1;
-}
-@media screen and (max-width:600px){
-  .cutieclitenti{
-    top:3%;
-    font-size:20px;
-    width:60%;
-  }
-}
 .ghilimele{
   font-size: 80px;
   color: #f5f5f5 ;
@@ -1291,107 +1158,8 @@ footer{
   left: 25%;
 }
 
-.cutiedemesaje{
-  width: 100%;
-  height:55%;
-  background-color: #00ad7c;
-  position: absolute;
-  top: 25%;
-}
-@media screen and (max-width:600px){
-  .cutiedemesaje{
-    height:90%;
-    top:10%;
-  }
-}
-.lightgreen{
-  width: 100%;
-  height: 650px;
-  margin: 0;
-  position: relative;
-  background-color: #00ad7c;
-/*  min-width: 1544px;*/
-}
-@media screen and (max-width:600px){
-  .lightgreen{
-    height:1500px;
-  }
-}
-.destinations
 
-{
-  display: inline-block;
-  text-align: left;
-  font-size: 25px;
-  color: black;
-  bottom: 50px;
-  left:20%;
-  margin-bottom: 3%;
-  margin-right: 3%;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 
-}
-#dest1
-{  background-image: url("belgium (1).jpg");
-  margin-left: 10%;
-  margin-top: 5%;
-  height: 250px;
-  width: 500px;
-
-}
-#dest2
-{  background-image: url("germany.jpg");
- height: 250px;
-  width: 500px;
-}
-#dest3
-{  background-image: url("spain.jpg");
-height: 250px;
- width: 400px;
- margin-left: 5%;
-}
-#dest4
-{  background-image: url("portugal.jpg");
-height: 250px;
- width: 400px;
-}
-#dest5
-{  background-image: url("greece.jpg");
-height: 250px;
- width: 400px;
-}
-.flag
-{
-  height : 18px;
-  width: 30px;
-  position:absolute;
-  top: 85px;
-  background-size: 100% 100%;
-}
-#flag1
-{background-image: url("flagb.jpg");
-left:252px}
-#flag2
-{background-image: url("flagg.jpg");
-left:820px;
-}
-#flag3
-{background-image: url("flags.jpg");
-left: 150px;
-top: 380px;
-}
-#flag4
-{background-image: url("flagp.png");
-left: 630px;
-top: 380px;
-
-}
-#flag5
-{background-image: url("flaggreece.png");
-left :1070px;
-top: 380px;
-}
 .price
 {
   height : 30px;
@@ -1401,14 +1169,7 @@ top: 380px;
   font-size: 15px;
   text-align: center;
 }
-.boxdest{
-display:inline-block;
-width:100%;
-height:600px;
-position:relative;
-top:0;
-background-color: whitesmoke;
-}
+
 body{
   width:100%;
   height: 100%;
@@ -1455,5 +1216,553 @@ body{
   .transparent{
     width:0vw;
     height: 0vw;
+  }
+}
+
+
+
+/*nou*/
+.destinations
+
+{
+  display: inline-block;
+  text-align: left;
+  font-size: 3vw;
+  color: black;
+  bottom: 5%;
+  left:20%;
+  margin-bottom: 3%;
+  margin-right: 3%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+@media screen and (max-width:600px){
+  .destinations{
+    width:100%;
+    font-size: 10vw;
+  }
+}
+#dest1
+{  background-image: url("belgium (1).jpg");
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 40%;
+  width:40%;
+
+
+}
+@media screen and (max-width:600px){
+  #dest1{
+    width:80%;
+    left:15%;
+    height:16%;
+    }
+}
+#dest2
+{  background-image: url("germany.jpg");
+ height: 40%;
+  width: 40%;
+}
+@media screen and (max-width:600px){
+  #dest2{
+    width:80%;
+    height:16%;
+    margin-top: 4%;
+    margin-left: 10%;
+  }
+}
+#dest3
+{  background-image: url("spain.jpg");
+height: 30%;
+ width: 28% ;
+ margin-left: 5%;
+}
+@media screen and (max-width:600px){
+  #dest3{
+    width:80%;
+    height:16%;
+    margin-top: 4%;
+    left:5%;
+    margin-left: 10%;
+  }}
+#dest4
+{  background-image: url("portugal.jpg");
+height: 30%;
+ width: 28%;
+}
+@media screen and (max-width:600px){
+  #dest4{
+    width:80%;
+    height: 16%;
+    margin-top: 4%;
+    margin-left: 10%;
+}}
+#dest5
+{  background-image: url("greece.jpg");
+height: 30%;
+ width: 28%;
+}
+@media screen and (max-width:600px){
+  #dest5{
+    width:80%;
+    height: 16%;
+    margin-top: 4%;
+    margin-left: 10%;
+
+  }}
+.flag
+{
+  height : 3%;
+  width: 4%;
+  position:absolute;
+  top: 10%;
+  background-size: 100% 100%;
+}
+@media screen and (max-width:600px){
+  .flag{
+    height:2%;
+    width: 10%;
+  }}
+#flag1
+{background-image: url("flagb.jpg");
+left:22%;}
+@media screen and (max-width:600px){
+  #flag1{
+    left:34%;
+    top:2.5%;
+  }}
+#flag2
+{background-image: url("flagg.jpg");
+left:67%;
+}
+@media screen and (max-width:600px){
+  #flag2{
+    left:36.5%;
+    top:21.5%;
+  }}
+#flag3
+{background-image: url("flags.jpg");
+left:14%;
+top: 55%;
+}
+@media screen and (max-width:600px){
+  #flag3{
+    left:27%;
+    top:40%;
+  }}
+#flag4
+{background-image: url("flagp.png");
+left:49%;
+top: 54.5%;
+}
+@media screen and (max-width:600px){
+  #flag4{
+    left:38%;
+    top:59%;
+  }}
+#flag5
+{background-image: url("flaggreece.png");
+left :79%;
+top: 54.5%;
+}
+@media screen and (max-width:600px){
+  #flag5{
+    left:33%;
+    top:77.5%;
+  }}
+.boxdest{
+display:inline-block;
+width:100%;
+height:60vw;
+position:relative;
+top:0;
+background-color: whitesmoke;
+}
+@media screen and (max-width:600px){
+  .boxdest{
+    width:100%;
+    left:0px;
+    height: 400vw;
+  }
+}
+
+/*nou*/
+.lightgreen{
+  width: 100%;
+  height: 650px;
+  margin: 0;
+  position: relative;
+  background-color: #00ad7c;
+/*  min-width: 1544px;*/
+}
+@media screen and (max-width:600px){
+  .lightgreen{
+    height:1500px;
+  }
+}
+.cutieclitenti{
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  font-size: 25px;
+  color: #f5f5f5;
+  z-index: 1;
+}
+@media screen and (max-width:600px){
+  .cutieclitenti{
+    top:3%;
+    font-size:20px;
+    width:60%;
+    left: 6.5%;
+  }
+}
+.cutiedemesaje{
+  width: 100%;
+  height:55%;
+  background-color: #00ad7c;
+  position: absolute;
+  top: 25%;
+}
+@media screen and (max-width:600px){
+  .cutiedemesaje{
+    height:90%;
+    top:10%;
+    left: 4.5%;
+  }
+}
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #00ad7c;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+
+ top:-26px;    left: 5%;
+}
+.cutiemesaj1{
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+  .cutiemesaj1{
+    max-height: 20%;
+    margin-top: 10%;
+  }
+}
+
+.interiorcutie1{
+    width: 69%;
+    height: 80%;
+    position: relative;
+    top: 16%;
+    left: 15%;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #a7a8a7;
+    font-size: medium;
+    margin-right:0;
+    /*min-width: 70%;*/
+    /*min-height: 70%;*/
+}
+
+.cutiemesaj2{
+    width: 25%;
+    height: 40%;
+    position: absolute;
+    top: 10%;
+    left: 37.5%;
+    background-color: #f5f5f5;
+    color: #a7a8a7;
+    text-align: center;
+    font-size: 15px;
+}
+@media screen and (max-width:600px){
+  .cutiemesaj2{
+    max-height: 20%;
+        margin-top: 22.5%;
+    top: 10%;
+  }
+}
+
+
+
+.cutiemesaj3{
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: #f5f5f5;
+    color: #a7a8a7;
+    text-align: center;
+    font-size: 15px;
+}
+@media screen and (max-width:600px){
+  .cutiemesaj3{
+    max-height: 20%;
+        margin-top: 22.5%;
+    top: 10%;
+  }
+}
+@media screen and (max-width:600px){
+  .cutiemesaj1,.cutiemesaj2,.cutiemesaj3{
+    width:60%;
+    float:left;
+    left: 0%;
+    position:static;
+    max-height: 20%;
+    top:10%;
+  }
+}
+.cutieprs1{
+  width: 37%;
+  height: 10%;
+  position: absolute;
+  left: 10%;
+  top: 112%;
+  text-align: left;
+  color: #e7f7f2;
+  font-size: 20px;
+  min-width: 37%;
+  min-height: 10%;
+}
+@media screen and (max-width:600px) {
+  .cutieprs1{
+    top:26.5%;
+    left: -0.5%;
+  }
+}
+.cutieprs2{
+  width: 37%;
+  height: 10%;
+  position: absolute;
+  left: 10%;
+  top: 112%;
+  text-align: left;
+  color: #e7f7f2;
+  font-size: 20px;
+  min-width: 37%;
+  min-height: 10%;
+}
+@media screen and (max-width:600px) {
+  .cutieprs2{
+    top:57%;
+        left: -0.5%;
+  }
+}
+.cutieprs3{
+  width: 37%;
+  height: 10%;
+  position: absolute;
+  left: 10%;
+  top: 112%;
+  text-align: left;
+  color: #e7f7f2;
+  font-size: 20px;
+  min-width: 37%;
+  min-height: 10%;
+}
+@media screen and (max-width:600px) {
+  .cutieprs3{
+    top:87%;
+        left: -0.5%;
+  }
+}
+
+.cutieprsA{
+  width: 29%;
+  height: 10%;
+  position: absolute;
+  left: 43%;
+  top: 112%;
+  text-align: left;
+  color: #5dcbac;
+  font-size: 20px;
+  min-width: 29%;
+  min-height: 10%;
+  opacity: 0.5;
+}
+@media screen and (max-width:600px) {
+  .cutieprsA{
+    top:26.5%;
+    left: 27%;
+  }
+}
+.cutieprsB{
+  width: 29%;
+  height: 10%;
+  position: absolute;
+  left: 43%;
+  top: 112%;
+  text-align: left;
+  color: #5dcbac;
+  font-size: 20px;
+  min-width: 29%;
+  min-height: 10%;
+  opacity: 0.5;
+}
+@media screen and (max-width:600px) {
+  .cutieprsB{
+    top:57%;
+        left: 27%;
+  }
+}
+.cutieprsC{
+  width: 29%;
+  height: 10%;
+  position: absolute;
+  left: 43%;
+  top: 112%;
+  text-align: left;
+  color: #5dcbac;
+  font-size: 20px;
+  min-width: 29%;
+  min-height: 10%;
+  opacity: 0.5;
+}
+@media screen and (max-width:600px) {
+  .cutieprsC{
+    top:87%;
+        left: 27%;
+  }
+}
+
+.cutieprsKappa1{
+  width: 42%;
+  height: 10%;
+  position: absolute;
+  left: 9.7%;
+  top: 127.5%;
+  text-align: left;
+  color: #5dcbac;
+  font-size: 20px;
+  opacity: 0.5;
+}
+@media screen and (max-width:600px) {
+  .cutieprsKappa1{
+    top:29%;
+      left: -0.5%;
+  }
+}
+.cutieprsKappa2{
+  width: 42%;
+  height: 10%;
+  position: absolute;
+  left: 9.7%;
+  top: 127.5%;
+  text-align: left;
+  color: #5dcbac;
+  font-size: 20px;
+  opacity: 0.5;
+}
+@media screen and (max-width:600px) {
+  .cutieprsKappa2{
+    top:59.5%;
+        left: -0.5%;
+  }
+}
+.cutieprsKappa3{
+  width: 42%;
+  height: 10%;
+  position: absolute;
+  left: 9.7%;
+  top: 127.5%;
+  text-align: left;
+  color: #5dcbac;
+  font-size: 20px;
+  opacity: 0.5;
+}
+@media screen and (max-width:600px) {
+  .cutieprsKappa3{
+    top:89.5%;
+        left: -0.5%;
+  }
+}
+.triunghi1 {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #f5f5f5;
+  position: absolute;
+  bottom: -10%;
+  left: 10%;
+}
+.triunghi2 {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #f5f5f5;
+  position: absolute;
+  bottom: -10%;
+  left: 10%;
+}
+.triunghi3 {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #f5f5f5;
+  position: absolute;
+  bottom: -10%;
+  left: 10%;
+}
+@media screen and (max-width:600px){
+  .triunghi1{
+    bottom:74%;
+  }
+}
+@media screen and (max-width:600px){
+  .triunghi2{
+    bottom:43.8%;
+  }
+}
+@media screen and (max-width:600px){
+  .triunghi3{
+    bottom:13.8%;
+  }
+}
+.ghilimele1{
+  font-size: 80px;
+  color: #f5f5f5 ;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+.ghilimele2{
+  font-size: 80px;
+  color: #f5f5f5 ;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+.ghilimele3{
+  font-size: 80px;
+  color: #f5f5f5 ;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+@media screen and (max-width:600px){
+  #dest1, #dest2, #dest3, #dest4, #dest5{
+    position:relative;
+    top:1%;
+    left:0%;
+  }
+}
+@media screen and (max-width:600px){
+  #flag1, #flag2, #flag3, #flag4, #flag5{
+    height:12%;
+    top:4%;
   }
 }
