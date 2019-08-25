@@ -1,3 +1,3 @@
 document.getElementById("home_button").addEventListener("click",function(){
-  location.href="index.html";
+  location.href="https://RoscaAlexandra.github.io/index.html";
 });
