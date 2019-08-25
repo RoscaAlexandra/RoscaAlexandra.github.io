@@ -43,5 +43,5 @@ arrowRight.addEventListener("click", function() {
 startSlide();
 
 document.getElementById("home_button").addEventListener("click",function(){
-  location.href="1.html";
+  location.href="https://RoscaAlexandra.github.io/index.html";
 });
